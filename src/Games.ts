@@ -1,7 +1,7 @@
 import { WebSocket } from "ws";
 import { Chess } from "chess.js";
 import { GAME_OVER, INIT_GAME } from "./messages";
-import { PrismaClient } from '../../node-backend/node_modules/prisma/prisma-client'
+import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 

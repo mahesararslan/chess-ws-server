@@ -142,7 +142,7 @@ import { WebSocket } from "ws";
 import { Game } from "./Games";
 import { ERROR, GAME_OVER, INIT_GAME, MOVE } from "./messages";
 import { Redis } from "ioredis";
-import { PrismaClient } from '../../node-backend/node_modules/prisma/prisma-client'
+import { PrismaClient } from '@prisma/client';
 import { RedisGame } from "./RedisGames";
 const prisma = new PrismaClient();
 
