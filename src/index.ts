@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // Get the port from the command-line argument or use a default value
-const PORT = process.argv[2] || 8080;
+const PORT = process.env.PORT || 8080;
 
 // Generate a unique server ID (e.g., using the port number)
 const serverId = `server-${PORT}`;
